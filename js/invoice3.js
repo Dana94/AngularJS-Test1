@@ -1,5 +1,4 @@
-//controller
-angular.module('invoice2', ['finance2'])
+angular.module('invoice3', ['finance3'])
 .controller('InvoiceController', ['currencyConverter', function InvoiceController(currencyConverter) {
   this.qty = 1;
   this.cost = 2;

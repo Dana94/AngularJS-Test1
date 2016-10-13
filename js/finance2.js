@@ -1,3 +1,4 @@
+//service
 angular.module('finance2', [])
 .factory('currencyConverter', function() {
   var currencies = ['USD', 'EUR', 'CNY'];
